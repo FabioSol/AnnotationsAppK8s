@@ -1,4 +1,4 @@
-#AnnotationsAppK8s
+# AnnotationsAppK8s
 
 This repository provides an **Infrastructure as Code (IaC)** version of the [AnnotationsApp](https://github.com/FabioSol/AnnotationsApp) for easy deployment on Kubernetes. The goal is to automate the deployment process using Kubernetes manifests and ensure scalability, security, and maintainability of the application.
 
@@ -41,7 +41,7 @@ This project is a Kubernetes-based deployment of the AnnotationsApp. It allows y
    kubectl apply -k k8s-manifests
    ```
 
-4. **Notes**
+## **Notes**
    -  This repository is focused on infrastructure automation using Kubernetes.
    -  For the application-specific details (such as its functionality, Docker Compose version, etc.), please refer to the original [AnnotationsApp repository](https://github.com/FabioSol/AnnotationsApp).
    
